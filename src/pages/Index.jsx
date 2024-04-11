@@ -82,7 +82,7 @@ const Index = () => {
             <option value="groceries">Groceries</option>
             <option value="other">Other</option>
           </Select>
-          <Button type="submit" colorScheme="blue" leftIcon={<FaPlus />}>
+          <Button type="submit" colorScheme="blue" leftIcon={<FaPlus />} width="full">
             {editIndex === -1 ? "Add" : "Update"}
           </Button>
         </Flex>
